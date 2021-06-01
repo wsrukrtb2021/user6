@@ -1,0 +1,16 @@
+C:\Users\1\source\repos\big_pachka\big_pachka\bin\Debug\big_pachka.exe.config
+C:\Users\1\source\repos\big_pachka\big_pachka\bin\Debug\big_pachka.exe
+C:\Users\1\source\repos\big_pachka\big_pachka\bin\Debug\big_pachka.pdb
+C:\Users\1\source\repos\big_pachka\big_pachka\obj\Debug\App.g.cs
+C:\Users\1\source\repos\big_pachka\big_pachka\obj\Debug\big_pachka_MarkupCompile.cache
+C:\Users\1\source\repos\big_pachka\big_pachka\obj\Debug\big_pachka_MarkupCompile.lref
+C:\Users\1\source\repos\big_pachka\big_pachka\obj\Debug\big_pachka.g.resources
+C:\Users\1\source\repos\big_pachka\big_pachka\obj\Debug\big_pachka.Properties.Resources.resources
+C:\Users\1\source\repos\big_pachka\big_pachka\obj\Debug\big_pachka.csproj.GenerateResource.cache
+C:\Users\1\source\repos\big_pachka\big_pachka\obj\Debug\big_pachka.csproj.CoreCompileInputs.cache
+C:\Users\1\source\repos\big_pachka\big_pachka\obj\Debug\big_pachka.exe
+C:\Users\1\source\repos\big_pachka\big_pachka\obj\Debug\big_pachka.pdb
+C:\Users\1\source\repos\big_pachka\big_pachka\obj\Debug\Window\MainWindow.g.cs
+C:\Users\1\source\repos\big_pachka\big_pachka\obj\Debug\User_Controle\materials_control.g.cs
+C:\Users\1\source\repos\big_pachka\big_pachka\obj\Debug\Window\MainWindow.baml
+C:\Users\1\source\repos\big_pachka\big_pachka\obj\Debug\User_Controle\materials_control.baml

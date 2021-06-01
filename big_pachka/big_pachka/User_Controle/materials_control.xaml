@@ -1,0 +1,32 @@
+﻿<UserControl x:Class="big_pachka.User_Controle.materials_control"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:big_pachka.User_Controle"
+             mc:Ignorable="d" 
+             d:DesignHeight="150" d:DesignWidth="700" Background="White">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="151*"/>
+            <ColumnDefinition Width="368*"/>
+            <ColumnDefinition Width="181*"/>
+        </Grid.ColumnDefinitions>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="116" Margin="10,14,0,0" VerticalAlignment="Top" Width="131"/>
+        <Label x:Name="lable_TypeMater_and_TitleMater" Content="|" Grid.Column="1" HorizontalAlignment="Left" Margin="268,9,0,0" VerticalAlignment="Top" Height="26" Width="257" Grid.ColumnSpan="2"/>
+        <Label x:Name="lable_min_count" Content="Минимальное количество: 0 шт" Grid.Column="1" HorizontalAlignment="Left" Margin="167,41,0,0" VerticalAlignment="Top" Width="191" Height="26"/>
+        <Label x:Name="lable_count_stock" Content="Остаток: 0 шт" Grid.Column="2" HorizontalAlignment="Left" Margin="73,32,0,0" VerticalAlignment="Top" Height="26" Width="84"/>
+        <Label x:Name="lable_unit" Content="unit" Grid.Column="2" HorizontalAlignment="Left" Margin="22,32,0,0" VerticalAlignment="Top" Visibility="Hidden" Height="26" Width="31"/>
+        <Label x:Name="lable_count_pack" Content="countlnPack" Grid.Column="2" HorizontalAlignment="Left" Margin="22,63,0,0" VerticalAlignment="Top" Visibility="Hidden" Height="26" Width="74"/>
+        <Label x:Name="Cost" Content="Цена" Grid.Column="2" HorizontalAlignment="Left" Margin="35,114,0,0" VerticalAlignment="Top" Visibility="Hidden" Height="26" Width="38"/>
+        <Label x:Name="lable_descript" Content="descript" Grid.Column="2" HorizontalAlignment="Left" Margin="22,88,0,0" VerticalAlignment="Top" Visibility="Hidden" Height="26" Width="52"/>
+        <Label x:Name="lable_ID" Content="id" HorizontalAlignment="Left" Margin="69,114,0,0" VerticalAlignment="Top" Visibility="Hidden" Height="26" Width="20"/>
+        <Label x:Name="lable_supplier" Content="Поставщики:" Grid.Column="1" HorizontalAlignment="Left" Margin="0,72,0,0" VerticalAlignment="Top" Height="26" Width="99" FontFamily="Verdana"/>
+        <Label Content="Тип материала и наименование:" HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top" Grid.Column="1" FontFamily="Verdana"/>
+        <Label Content="Минимальное количество" Grid.Column="1" HorizontalAlignment="Left" Margin="0,41,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="material_delete" Content="Удалить" Grid.Column="2" HorizontalAlignment="Left" Margin="35,119,0,0" VerticalAlignment="Top" Width="75" Background="#FFFFC1C1" Click="material_delete_Click"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="150" VerticalAlignment="Top" Width="700" Grid.ColumnSpan="3"/>
+
+
+    </Grid>
+</UserControl>
